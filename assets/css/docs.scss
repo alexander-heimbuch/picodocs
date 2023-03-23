@@ -119,6 +119,10 @@ pre[class*="language-"] {
   background: var(--code-background-color);
 }
 
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
 /**
 * Mobile
 */
