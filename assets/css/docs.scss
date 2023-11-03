@@ -115,9 +115,14 @@ body {
   margin-bottom: $base-height;
 }
 
-pre[class*="language-"] {
-  background: var(--code-background-color);
+pre {
+  background: #2d2d2d;
+
+  code {
+    color: #ccc;
+  }
 }
+
 
 blockquote p:last-child {
   margin-bottom: 0;
